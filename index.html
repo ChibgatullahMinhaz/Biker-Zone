@@ -24,112 +24,131 @@
             color: #707070;
         }
     </style>
-    <title>Legal Solution</title>
+    <title>Bike Dekho</title>
 </head>
 
 <body class="popins_family">
     <header class=" md:max-w-[90%] mx-auto">
         <!-- navber  -->
-         <nav >
+        <nav>
             <div class="navbar bg-base-100 flex items-center">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>News</a></li>
+                            <li><a>Contact</a></li>
+                            <div class="navber-actions">
+                                <button class="btn bg-green-500">Login</button>
+                            </div>
+                        </ul>
                     </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Home</a></li>
-                      <li><a>Shop</a></li>
-                      <li><a>News</a></li>
-                      <li><a>Contact</a></li>
-                      <div class="navber-actions">
-                          <button class="btn bg-green-500">Login</button>
-                      </div>
-                    </ul>
-                  </div>
-                  <a class=" font-bold text-xl hidden lg:block ">Bike Dekho</a>
+                    <a class=" font-bold text-xl hidden lg:block ">Bike Dekho</a>
                 </div>
                 <div class=" navbar-end block justify-end lg:hidden">
                     <a class="btn btn-ghost text-xl ">Bike Dekho</a>
 
                 </div>
                 <div class="navbar-end hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 flex items-center">
-                    <li><a>Home</a></li>
-                    <li><a>Shop</a></li>
-                    <li><a>News</a></li>
-                    <li><a>Contact</a></li>
-                    <div class="navber-actions">
-                        <button class="btn bg-green-500 hover:bg-green-500 text-white">Login</button>
-                    </div>
-                  </ul>
+                    <ul class="menu menu-horizontal px-1 flex items-center">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>News</a></li>
+                        <li><a>Contact</a></li>
+                        <div class="navber-actions">
+                            <button class="btn bg-green-500 hover:bg-green-500 text-white">Login</button>
+                        </div>
+                    </ul>
                 </div>
+
+            </div>
+        </nav>
+        <!-- banner section -->
+        <div class="carousel w-full container mx-auto">
+          <div id="slide1" class=" content-center carousel-item relative w-full grid grid-cols-2">
+                <div class="absolute left-1 right-1 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle bg-transparent">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-transparent">❯</a>
+                </div>
+                <div class="content-center space-y-8 max-w-[50%]">
+                    <h1 class="text-xl lg:text-5xl font-bold ">Ducati XDIAVEL S-73</h1>
+                    <p>The Ducati XDiavel S-73 combines power, luxury, and technology with a 1,262cc engine, belt drive,
+                        and aggressive Italian styling</p>
+                    <button class="btn bg-green-500 text-white hover:bg-green-500">Purchase</button>
+                </div>
+                <img src="images/slider/bike1.png" class=" w-full " />
+            </div> 
+
+
+
+            <div id="slide2" class="carousel-item relative w-full">
+
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle bg-transparent">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-transparent">❯</a>
+                </div>
+                <div class="content-center space-y-8">
+                    <h1 class="text-3xl lg:text-5xl font-bold ">Motorcycles & Scooters
+                    </h1>
+                    <p>Motorcycles offer power and speed, while scooters are compact, easy to maneuver, and perfect for
+                        city commuting and short trips.
+
+                    </p> <button class="btn bg-green-500 text-white hover:bg-green-500">Purchase</button>
+                </div>
+                <img src="images/slider/bike2.png" class="w-full" />
+            </div>
+
+            <div id="slide3" class="carousel-item relative w-full">
+                
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle bg-transparent">❮</a>
+                    <a href="#slide4" class="btn btn-circle bg-transparent">❯</a>
+                </div>
+                <div class="content-center space-y-8">
+                    <h1 class="text-3xl lg:text-5xl font-bold ">Ducati XDIAVEL S-73</h1>
+                    <p>The 2021 Honda CBR500R features a 471cc engine, sporty styling, advanced safety tech, and great fuel efficiency for riders
+                    </p>
+                    <button class="btn bg-green-500 text-white hover:bg-green-500">Purchase</button>
+                </div>
+                <img
+                src="images/slider/bike3.png"
+                class="w-full" />
+            </div>
+
+            <div id="slide4" class="carousel-item relative w-full">
                
-              </div>
-         </nav>
-<!-- banner section -->
-<div class="carousel w-full">
-    <div id="slide1" class="carousel-item relative w-full grid grid-cols-2">
-        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-          <a href="#slide4" class="btn btn-circle">❮</a>
-         
-          <a href="#slide2" class="btn btn-circle">❯</a>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+
+                <div class="content-center space-y-8">
+                    <h1 class="text-3xl lg:text-5xl font-bold ">Ducati XDIAVEL S-73</h1>
+                    <p>The Ducati XDiavel S-73 combines power, luxury, and technology with a 1,262cc engine, belt drive, and aggressive Italian styling</p>
+                    <button class="btn bg-green-500 text-white hover:bg-green-500">Purchase</button>
+                </div>
+                <img
+                src="images/slider/bike4.png"
+                class="w-full" />
+            </div>
+
         </div>
-        <div>
-            <h1>e</h1>
-        </div>
-      <img
-        src="images/slider/bike1.png"
-        class="w-full" />
-    </div>
-    <div id="slide2" class="carousel-item relative w-full">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-        class="w-full" />
-      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-        <a href="#slide1" class="btn btn-circle">❮</a>
-        <a href="#slide3" class="btn btn-circle">❯</a>
-      </div>
-    </div>
-    <div id="slide3" class="carousel-item relative w-full">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-        class="w-full" />
-      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-        <a href="#slide2" class="btn btn-circle">❮</a>
-        <a href="#slide4" class="btn btn-circle">❯</a>
-      </div>
-    </div>
-    <div id="slide4" class="carousel-item relative w-full">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-        class="w-full" />
-      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-        <a href="#slide3" class="btn btn-circle">❮</a>
-        <a href="#slide1" class="btn btn-circle">❯</a>
-      </div>
-    </div>
-  </div> 
 
     </header>
 
     <!-- main  -->
     <main class="max-w-[90%] mx-auto mb-8">
         <!-- Fetured Bikes In This Year -->
-         <section class="mb-8">
+        <section class="mb-8">
             <h1 class="text-black font-semibold lg:text-5xl text-3xl text-center ">Fetured Bikes In This Year</h1>
             <p class="text-sm text-red-600 text-center">Best bike collection</p>
             <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 mt-8 items-center justify-center">
@@ -137,7 +156,7 @@
                 <img src="images/slider/bike4.png" alt="">
                 <img src="images/others/extrabike.png" alt="">
             </div>
-         </section>
+        </section>
         <!-- latest News -->
         <section>
             <h1 class="font-semibold text-3xl lg:text-5xl text-center text-[#0A0826]">latest News</h1>
@@ -164,7 +183,8 @@
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title">Motorcycles & Scooters</h2>
-                        <p>Motorcycles offer power and speed, while scooters are compact, easy to maneuver, and perfect for city commuting and short trips.
+                        <p>Motorcycles offer power and speed, while scooters are compact, easy to maneuver, and perfect
+                            for city commuting and short trips.
                         </p>
                         <div class="card-actions justify-start">
                             <button class="btn bg-green-500 text-white hover:bg-green-500">Read More</button>
@@ -178,9 +198,11 @@
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title">2021 Honda CBR500R</h2>
-                        <p>The 2021 Honda CBR500R features a 471cc engine, sporty styling, advanced safety tech, and great fuel efficiency for riders</p>
+                        <p>The 2021 Honda CBR500R features a 471cc engine, sporty styling, advanced safety tech, and
+                            great fuel efficiency for riders</p>
                         <div class="card-actions justify-start">
-                            <button class="btn  btn-outline btn-success  hover:text-white hover:bg-black  ">Read More</button>
+                            <button class="btn  btn-outline btn-success  hover:text-white hover:bg-black  ">Read
+                                More</button>
                         </div>
                     </div>
                 </div>
